@@ -11,7 +11,7 @@ const lists = loadLists();
 function Board() {
   return (
       <Container>
-          {lists.map(list => <List key={list.tile} data={list} />)}     
+          {lists.map(list => <List key={list.title} data={list} />)}     
       </Container>
     
     );
